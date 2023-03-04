@@ -1,0 +1,505 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: aliceblue;
+   
+    width: 1810px;
+    height: 100px;
+}
+.list, a{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    margin: 0px;
+
+    
+}
+a:hover{
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    background-image:url('download\ \(2\).jpeg');
+    /* height: 600px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+
+/* position: absolute; */
+width: 1519px;
+height: 1017px;
+left: -23px;
+top: 100px;
+
+
+    
+}
+.main h2{
+    position: absolute;
+width: 902px;
+height: 215px;
+left: 17px;
+top: 240px;
+font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 700;
+font-size: 101px;
+line-height: 108px;
+color: #FFFFFF;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+.main p{
+    position: absolute;
+    display: flex;
+    
+width: 599px;
+height: 300px;
+left: 116px;
+top: 613px;
+
+font-family: 'Ruda';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 40px;
+/* or 160% */
+
+letter-spacing: 0.09em;
+
+color: #FFFFFF;
+}
+.social{
+    font-size: 25px;
+
+}
+
+.aboutus{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 650px;
+    width: 1519px;
+    background-color: black;
+}
+.aboutus>div>h2{
+    position: relative;
+    top:50px;
+    
+    color:white;
+
+    font-family: 'Quattrocento';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 0px;
+}
+.divaboutus{
+    display: flex;
+}
+.aboutus>div>.line{
+
+    border: 3px solid #ff0000;
+    position:absolute;
+    display: flex;
+    width: 400px;
+    left: 570px;
+    top: 1230px;
+    
+
+   
+}
+
+.divaboutus .adivleft{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    height: 280px;
+    width: 320px;
+   
+    top: 1350px;
+    left: 350px;
+
+}
+.adivleft>p{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.divaboutus>.adivright>img{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    height: 280px;
+    width: 450px;
+    border-radius: 5px;
+    top: 1300px;
+    left: 900px;
+}
+
+.menu{
+
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 1519px;
+}
+.menu>.menu1>h2{
+    display: flex;
+    position: absolute;
+    top: 1800px;
+    left: 670px;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 0px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.menu>.menu1>div{
+
+    display: flex;
+    position: absolute;
+    top: 1850px;
+    left: 560px;
+    border: 3px solid #ff0000;
+    width: 400px;
+}
+.menu>.para>p{
+    color: #FFFFFF;
+    position: absolute;
+    top: 1900px;
+    left: 100px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+}
+.gap{
+
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 2000px;
+    left: 100px;
+    font-family: 'Ruda';
+    font-style: normal;
+    
+}
+.gap>pre>h2{
+
+    position: absolute;
+    left: -33px;
+    top:-30px;
+    color: #F2C94C;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+
+}
+.gap1_1{
+
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 2000px;
+    left: 800px;
+    font-family: 'Ruda';
+    font-style: normal;
+    
+}
+.gap>div>img{
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 130px;
+    width: 180px;
+    border-radius: 5px;
+}
+.gap>pre{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    left: 125px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.gap2{
+
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 2200px;
+    left: 100px;
+    font-family: 'Ruda';
+    font-style: normal;
+    
+}
+.gap2>pre>h2{
+
+    position: absolute;
+    left: -33px;
+    top:-30px;
+    color: #F2C94C;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+
+}
+.gap2_2{
+
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 2200px;
+    left: 800px;
+    font-family: 'Ruda';
+    font-style: normal;
+
+
+}
+
+.gap2>div>img{
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 130px;
+    width: 180px;
+    border-radius: 5px;
+}
+.gap2>pre{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    left: 125px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    
+
+}
+
+.gap3{
+
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 2400px;
+    left: 100px;
+    font-family: 'Ruda';
+    font-style: normal;
+   
+}
+.gap3>pre>h2{
+
+    position: absolute;
+    left: -33px;
+    top:-30px;
+    color: #F2C94C;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+
+}
+.gap3_3{
+
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 2400px;
+    left: 800px;
+    font-family: 'Ruda';
+    font-style: normal;
+    
+
+}
+
+
+.gap3>div>img{
+    position: relative;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 130px;
+    width: 180px;
+    border-radius: 5px;
+}
+.gap3>pre{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    left: 125px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.findus{
+
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 580px;
+    width: 1519px;
+}
+.findus>.findus1>h2{
+    display: flex;
+    position: absolute;
+    top: 2600px;
+    left: 670px;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 0px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.findus>.findus1>div{
+
+    display: flex;
+    position: absolute;
+    top: 2650px;
+    left: 590px;
+    border: 3px solid #ff0000;
+    width: 400px;
+}
+.div1{
+
+    height: 300px;
+    width: 400px;
+   
+    position: absolute;
+    top: 2750px;
+    left: 250px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+/* or 160% */
+
+    letter-spacing: 0.09em;
+
+    color: #FFFFFF;
+}
+.findusd>.div1>.location>img{
+
+    height: 30px;
+    width: 30px;
+}
+.findusd>.div1>.location{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.findusd>.div1>.phone>img{
+
+    height: 30px;
+    width: 30px;
+}
+.div2{
+    position: absolute;
+    top: 2750px;
+    left: 900px;
+}
+.footer{
+
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    height: 210px;
+    width: 1519px;
+}
+.footer>.logo>img{
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute;
+    left: 100px;
+    top: 3200px;
+    
+
+}
+.footer>.div3>.email{
+    height: 100px;
+    width: 400px;
+    
+    position: absolute;
+    top: 3200px;
+    left: 1100px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+/* or 160% */
+
+    letter-spacing: 0.09em;
+
+    color: #FFFFFF;
+}
+.footer>.div3>.phone{
+
+    height: 100px;
+    width: 400px;
+   
+    position: absolute;
+    top: 3250px;
+    left: 1100px;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+
+    color: #FFFFFF;
+}
+.footer>.div3>.phone>img{
+
+    height: 25px;
+    width: 25px;
+}
+.footer>.div3>.email>img{
+
+    height: 25px;
+    width: 25px;
+}
